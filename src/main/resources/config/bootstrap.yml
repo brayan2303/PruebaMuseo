@@ -1,0 +1,13 @@
+application:
+  api:
+    path: /museo
+spring:
+  application:
+    name: museo
+  main:
+    allow-bean-definition-overriding: true
+info:
+  project:
+    version: 1.0.0
+    title: museo
+    description: Microservicio Para prueba museo

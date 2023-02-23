@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="services.ObraServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-23T07:11:27" hostname="BRAYANALGECIRA" time="0.081">
+  <properties/>
+  <testcase name="dadoListarObrasWhenDatosCorrectosThenListas" classname="services.ObraServiceTest" time="0.081"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

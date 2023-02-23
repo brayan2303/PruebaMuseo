@@ -1,0 +1,16 @@
+server:
+  port: 8088
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      naming:
+        physical-strategy : org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      dialect: org.hibernate.dialect.SQLServer2012Dialect
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.SQLServer2012Dialect
+  datasource:
+    url: jdbc:sqlserver://localhost;databaseName=MUSEO
+    username: sa
+    password: S0p0rt31t
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
